@@ -1,0 +1,21 @@
+/* Custom styles */
+.carousel-item {
+  text-align: center;
+  background-color: skyblue; /* Ganti dengan warna yang diinginkan */
+  height: 100vh;
+}
+
+.card {
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 500px; /* Sesuaikan ukuran maksimum card */
+  }
+}
+
+.carousel-item h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
